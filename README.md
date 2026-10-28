@@ -111,6 +111,4 @@ After the execution pipeline completes, the analytics suite automatically format
 
 ## 🤝 Community Safety & Environmental Stewardship
 
-> *"Those who serve nature serve the needs of all things. Hopefully making the world safe for both man and AI."*
-
 This framework provides an objective database layout designed to give communities transparent insight into their environments. Long-term road maps aim to combine these acoustic trackers seamlessly with portable ambient **air quality telemetry** and open-source **bicycle safety overtake detection radars** to actively protect vulnerable road users and foster safer street infrastructure.
