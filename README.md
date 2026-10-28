@@ -47,6 +47,7 @@ The onboard processing microcontroller calculates one acoustic weighting matrix 
 * `test_meter.py` - Hardware verification and dynamic streaming diagnostic tool.
 * `check_mode.py` - Non-intrusive runtime filter scanner reading `REG_CONTROL` directly.
 * `set_a_mode.py` / `set_c_mode.py` / `set_z_mode.py` - Manual mode configuration override utilities.
+* `analysis/` - Windows 11 workstation analytics suite parsing synced CSV log matrices into high-resolution charts.
 * `meter/` - Core driver classes interacting directly with the hardware via `smbus2`.
 * `exporters/` - Telemetry storage interfaces pushing clean columns to daily CSV files and a centralized SQLite database.
 * `config/` - Runtime boundary parameters (e.g., event decibel threshold constraints).
