@@ -1,0 +1,33 @@
+# ==========================================
+# Telemetry, Log Dumps & Databases (Core Data)
+# ==========================================
+data/
+*.csv
+*.db
+*.sqlite
+*.jsonl
+*.log
+*.txt
+
+# ==========================================
+# System Camera Captures
+# ==========================================
+camera/captures/
+*.jpg
+*.png
+
+# ==========================================
+# Python Runtime Caches & Environments
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# ==========================================
+# Linux, Editors & SSH Workspace Artifacts
+# ==========================================
+.vscode/
+*.swp
+*~
