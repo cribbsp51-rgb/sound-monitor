@@ -81,6 +81,32 @@ Monitor live logs in real-time using the system journal:
 sudo journalctl -u sound-monitor.service -f
 ```
 
+## 📊 Data Analytics & Public Reporting (Windows Workstation)
+
+Raw telemetry CSV logs can be securely synced from the Raspberry Pi edge tracker to a Windows 11 workstation for offline analytics, automated table compilation, and visualization generation.
+
+### Workstation Directory Layout
+```text
+C:\noise_logs\
+├── reports\                             <-- Automatically generated outputs
+├── sound_evidence_2026-10-18.csv        <-- Synced edge node telemetry data
+├── sound_evidence_2026-10-19.csv
+└── sound_evidence_2026-10-20.csv
+```
+
+### Compiling High-Resolution Infographics
+The reporting suite uses `uv` (fast Python package installer and runner) alongside `pandas` and `matplotlib` to parse the log matrix, compile statistical metrics, and format the output directly into a high-resolution `.png` chart optimized for immediate social media publication (e.g., Facebook community groups).
+
+Execute the compilation script via **PowerShell**:
+```powershell
+uv run --with pandas --with matplotlib C:\analyze_noise.py "C:\noise_logs"
+```
+
+### Report Output Locations
+After the execution pipeline completes, the analytics suite automatically formats, names, and exports your structured graphics:
+* **Target Report Location:** `C:\noise_logs\reports\`
+* **Generated Infographic File:** `facebook_noise_report_YYYY-MM-DD.png`
+
 ---
 
 ## 🤝 Community Safety & Environmental Stewardship
